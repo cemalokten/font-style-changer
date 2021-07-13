@@ -13,6 +13,7 @@ Inspired by the tutorial from Wes Bos JS30 (**Playing with CSS Variables**)
 - How to change those variables using JS `document.documentElement.style.setProperty('--property', 'value')`
 - How to enable editing of text using `contenteditable="true"`
 - How to create a simple light/dark theme switcher
+- Toggle is much better than loads of `if` statments `document.documentElement.classList.toggle('dark');` FTW!
 - How to retrieve input values from `input type="range"`
 - How to style sliders using CSS `input[type="range"]`
 

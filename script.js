@@ -31,9 +31,11 @@ sliders.forEach((input) => input.addEventListener('mousemove', changeValue));
 justifyButtons.forEach((input) => input.addEventListener('click', changeValue));
 
 colourChange.addEventListener('click', function(e) {
-	if (!document.documentElement.classList.contains('dark')) {
-		document.documentElement.classList.add('dark');
-	} else if (document.documentElement.classList.contains('dark')) {
-		document.documentElement.classList.remove('dark');
-	}
+	// if (!document.documentElement.classList.contains('dark')) {
+	// 	document.documentElement.classList.add('dark');
+	// } else if (document.documentElement.classList.contains('dark')) {
+	// 	document.documentElement.classList.remove('dark');
+	// }
+
+	document.documentElement.classList.toggle('dark');
 });
