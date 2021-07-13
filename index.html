@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <title>Font Style Changer ⌨</title>
+</head>
+
+<body>
+    <main class="main-container">
+        <section class="flex-item">
+            <p contenteditable="true">Type Something 🏀</p>
+        </section>
+
+        <section class="flex-item">
+            <div class="row">
+                <div class="row">
+                    <div class="item gap-right-lg"><label for="fontsize">Font Size</label></div>
+                    <div class="item"><input type="range" class="slider" name=" fontsize" min="5" max="15" value="5"
+                            data-label="size"></div>
+                </div>
+                <div class="row">
+                    <div class="item gap-right-lg"><label for="fonttracking">Tracking</label></div>
+                    <div class="item"><input type="range" class="slider" name="fonttracking" min="2" max="20" value="2"
+                            data-label="tracking">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="item gap-right-sm"><svg class="justify" data-label="left"
+                            xmlns="http://www.w3.org/2000/svg" width="15" height="11.5" viewBox="0 0 15 11.5">
+                            <g transform="translate(0 0.75)">
+                                <line x1="11.667" transform="translate(0 3.333)" fill="none" stroke="var(--color)"
+                                    stroke-linejoin="round" stroke-width="1.5"></line>
+                                <line x1="15" fill="none" stroke="var(--color)" stroke-linejoin="round"
+                                    stroke-width="1.5">
+                                </line>
+                                <line x1="15" transform="translate(0 6.667)" fill="none" stroke="var(--color)"
+                                    stroke-linejoin="round" stroke-width="1.5"></line>
+                                <line x1="11.667" transform="translate(0 10)" fill="none" stroke="var(--color)"
+                                    stroke-linejoin="round" stroke-width="1.5"></line>
+                            </g>
+                        </svg>
+                    </div>
+
+                    <div class="item"><svg class="justify" data-label="center" xmlns="http://www.w3.org/2000/svg"
+                            width="15" height="11.5" viewBox="0 0 15 11.5">
+                            <g transform="translate(0 0.75)">
+                                <line x1="10" transform="translate(2.5 3.333)" fill="none" stroke="var(--color)"
+                                    stroke-linejoin="round" stroke-width="1.5"></line>
+                                <line x1="15" fill="none" stroke="var(--color)" stroke-linejoin="round"
+                                    stroke-width="1.5">
+                                </line>
+                                <line x1="15" transform="translate(0 6.667)" fill="none" stroke="var(--color)"
+                                    stroke-linejoin="round" stroke-width="1.5"></line>
+                                <line x1="10" transform="translate(2.5 10)" fill="none" stroke="var(--color)"
+                                    stroke-linejoin="round" stroke-width="1.5"></line>
+                            </g>
+                        </svg></div>
+                    <div class="item gap-left-sm">
+                        <svg class="justify" data-label="right" xmlns="http://www.w3.org/2000/svg" width="15"
+                            height="11.5" viewBox="0 0 15 11.5">
+                            <g transform="translate(0 0.75)">
+                                <line x1="11.667" transform="translate(3.333 3.333)" fill="none" stroke="var(--color)"
+                                    stroke-linejoin="round" stroke-width="1.5"></line>
+                                <line x1="15" fill="none" stroke="var(--color)" stroke-linejoin="round"
+                                    stroke-width="1.5">
+                                </line>
+                                <line x1="15" transform="translate(0 6.667)" fill="none" stroke="var(--color)"
+                                    stroke-linejoin="round" stroke-width="1.5"></line>
+                                <line x1="11.667" transform="translate(3.333 10)" fill="none" stroke="var(--color)"
+                                    stroke-linejoin="round" stroke-width="1.5"></line>
+                            </g>
+                        </svg>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="item"><span class="dot" data-label="colour-mode"></span></div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+</body>
+
+</html>
